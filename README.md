@@ -8,13 +8,13 @@
     1, 13 Dwarfs  
     2, OpenMP + OpenACC  
 ###  Hypothesis:  
-    1, OpenMP or OpenACC which one is faster  
+    1, OpenMP or OpenACC which one is faster(Are the benchmarks suitable for CPU or GPU)  
     2, same for both benchmarks?  
-    3, Are the benchmarks suitable for CPU or GPU  
+    //3, Are the benchmarks suitable for CPU or GPU  
     4, How to measure paralleliztion?  
     5, How much of the code is serial and how much can we parallel  
     
-    //Note: 1 and 3 are close to the same thing actually?
+    //Note: 1 and 3 are close to the same thing actually?   Agree
     
 ###  Specific Benchmarks  
     1, Gem:  
