@@ -14,6 +14,8 @@
     4, How to measure paralleliztion?  
     5, How much of the code is serial and how much can we parallel  
     
+    //Note: 1 and 3 are close to the same thing actually?
+    
 ###  Specific Benchmarks  
     1, Gem:  
       Introduction  
