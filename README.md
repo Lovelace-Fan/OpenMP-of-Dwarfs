@@ -7,6 +7,16 @@
 ###  Introduction:  
     1, 13 Dwarfs  
     2, OpenMP + OpenACC  
+    
+###  Specific Benchmarks  
+    1, Gem:  
+      Introduction  
+      Analysis complexity  
+    2, BFS  
+      Introduction  
+      Analysis complexity  
+    3, Run both under OpenCL --> original implementation      
+    
 ###  Hypothesis:  
     1, OpenMP or OpenACC which one is faster(Are the benchmarks suitable for CPU or GPU)  
     2, same for both benchmarks?  
@@ -16,15 +26,6 @@
     
     //Note: 1 and 3 are close to the same thing actually?   Agree
     
-###  Specific Benchmarks  
-    1, Gem:  
-      Introduction  
-      Analysis complexity  
-    2, BFS  
-      Introduction  
-      Analysis complexity  
-    3, Run both under OpenCL --> original implementation  
-
 ###  Implementation and Optimization:  
     1,Servers architecture  
     
