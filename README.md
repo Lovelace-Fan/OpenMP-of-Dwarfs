@@ -4,9 +4,16 @@
 ###  Abstract :  
     1, OpenDwarf problems  
     2, OpenMP + OpenACC  
+
+
 ###  Introduction:  
     1, 13 Dwarfs  
     2, OpenMP + OpenACC  
+    3, What do you propose to do?
+
+###  Why Important:  
+    1,
+
     
 ###  Specific Benchmarks  
     1, Gem:  
@@ -15,7 +22,8 @@
     2, BFS  
       Introduction  
       Analysis complexity  
-    3, Run both under OpenCL --> original implementation      
+    3, Run both under OpenCL --> original implementation    
+    4, Approaches 
     
 ###  Hypothesis:  
     1, OpenMP or OpenACC which one is faster(Are the benchmarks suitable for CPU or GPU)  
