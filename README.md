@@ -44,14 +44,18 @@
    2, 
 
 # Tasks Allocation Table
-| Tasks         | Name          |
-| -------------                                 |:-------------:|
-| Analysis the details of the benchmarks      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
-   
-   
-   
+| Tasks                                       | Name          |
+| -------------                               |:-------------:|
+| Analysis the details of gem benchmark       |               |
+| Analysis the details of BFS benchmark       |               |
+| Implement OpenMP version of gem             |               |
+| Implement OpenMP version of bfs             |               |
+| Implement OpenACC version of gem            |               |
+| Implement OpenACC version of bfs            |               |
+| Gem result analysis                         |               |
+| BFS result analysis                         |               |
+| Gem optimization                            |               |
+| BFS optimization                            |               |
    
    
    
