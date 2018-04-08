@@ -46,16 +46,16 @@
 # Tasks Allocation Table
 | Tasks                                       | Name          |
 | -------------                               |:-------------:|
-| Analysis the details of gem benchmark       |               |
-| Analysis the details of BFS benchmark       |               |
-| Implement OpenMP version of gem             |               |
-| Implement OpenMP version of bfs             |               |
-| Implement OpenACC version of gem            |               |
-| Implement OpenACC version of bfs            |               |
-| Gem result analysis                         |               |
-| BFS result analysis                         |               |
-| Gem optimization                            |               |
-| BFS optimization                            |               |
+| Analysis the details of gem benchmark       |      Eddy     |
+| Analysis the details of BFS benchmark       |      Owen     |
+| Implement OpenMP version of gem             |      Owen     |
+| Implement OpenMP version of bfs             |      Eddy     |
+| Implement OpenACC version of gem            |      Owen     |
+| Implement OpenACC version of bfs            |      Eddy     |
+| Gem result analysis                         |      Eddy     |
+| BFS result analysis                         |      Owen     |
+| Gem optimization                            |      Eddy     |
+| BFS optimization                            |      Owen     |
    
    
    
