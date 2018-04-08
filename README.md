@@ -45,8 +45,8 @@
 
 # Tasks Allocation Table
 | Tasks         | Name          |
-| ------------- |:-------------:|
-| col 3 is      | right-aligned |
+| -------------                                 |:-------------:|
+| Analysis the details of the benchmarks      | right-aligned |
 | col 2 is      | centered      |
 | zebra stripes | are neat      |
    
