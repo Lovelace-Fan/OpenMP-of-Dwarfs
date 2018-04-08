@@ -42,6 +42,13 @@
    1, Run both under OpenCL --> original implementation  
    1, Proposal  
    2, 
+
+# Tasks Allocation Table
+| Tasks         | Name          |
+| ------------- |:-------------:|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
    
    
    
