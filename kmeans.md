@@ -35,3 +35,19 @@
        187: #pragma omp for private(i, j, index) firstprivate(npoints, nclusters, nfeatures) schedule(guided) reduction(+:delta)
        108: #pragma parallel for reduction(+:ans), private(i), shared(numdims, pt1, pt2)
        Parallel -- 1.442081s (num of threads = 8) , Serial -- 2.715432s
+       
+    9, 183: #pragma omp parallel shared(feature, clusters, membership, partial_new_centers, partial_new_centers_len)
+       187: #pragma omp for private(i, j, index) firstprivate(npoints, nclusters, nfeatures) schedule(guided) reduction(+:delta)
+       108: #pragma parallel for schedule(static), reduction(+:ans), private(i), shared(numdims, pt1, pt2)
+       Parallel -- 1.548525s (num of threads = 8) , Serial -- 2.715432s
+       
+    10, 183: #pragma omp parallel shared(feature, clusters, membership, partial_new_centers, partial_new_centers_len)
+       187: #pragma omp for private(i, j, index) firstprivate(npoints, nclusters, nfeatures) schedule(guided) reduction(+:delta)
+       108: #pragma parallel for schedule(dynamic), reduction(+:ans), private(i), shared(numdims, pt1, pt2)
+       Parallel -- 1.500017s (num of threads = 8) , Serial -- 2.715432s
+       
+    11, 183: #pragma omp parallel shared(feature, clusters, membership, partial_new_centers, partial_new_centers_len)
+       187: #pragma omp for private(i, j, index) firstprivate(npoints, nclusters, nfeatures) schedule(guided) reduction(+:delta)
+       108: #pragma parallel for schedule(guided), reduction(+:ans), private(i), shared(numdims, pt1, pt2)
+       Parallel -- 1.491548s (num of threads = 8) , Serial -- 2.715432s
+       
