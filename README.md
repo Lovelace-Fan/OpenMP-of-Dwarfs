@@ -46,16 +46,32 @@
 # Tasks Allocation Table
 | Tasks                                       | Name          |
 | -------------                               |:-------------:|
-| Analysis the details of gem benchmark       |      Eddy     |
-| Analysis the details of BFS benchmark       |      Owen     |
-| Implement OpenMP version of gem             |      Owen     |
-| Implement OpenMP version of bfs             |      Eddy     |
-| Implement OpenACC version of gem            |      Owen     |
-| Implement OpenACC version of bfs            |      Eddy     |
-| Gem result analysis                         |      Eddy     |
-| BFS result analysis                         |      Owen     |
-| Gem optimization                            |      Eddy     |
-| BFS optimization                            |      Owen     |
+| Analysis the details of BFS benchmark       |      Eddy     |
+| Analysis the details of NW benchmark        |      Eddy     |
+| Analysis the details of Srad benchmark      |      Eddy     |
+| Analysis the details of K-Means benchmark   |      Owen     |
+| Analysis the details of LUD benchmark       |      Owen     |
+| Analysis the details of CFD benchmark       |      Owen     |
+| Implement OpenMP version of BFS benchmark   |      Eddy     |
+| Implement OpenMP version of NW benchmark    |      Eddy     |
+| Implement OpenMP version of Srad benchmark  |      Eddy     |
+| Implement OpenMP version of K-Means benchmark |      Owen     |
+| Implement OpenMP version of LUD benchmark   |      Owen     |
+| Implement OpenMP version of CFD benchmark   |      Owen     |
+| Analysis the details of Srad benchmark under OpenCL      |      Eddy     |
+| Analysis the details of LUD benchmark under OpenCL       |      Owen     |
+| BFS result analysis                         |      Eddy     |
+| NW result analysis                         |      Eddy     |
+| Srad result analysis                         |      Eddy     |
+| K-Means result analysis                         |      Owen     |
+| LUD result analysis                         |      Owen     |
+| CFD result analysis                         |      Owen     |
+| BFS optimization                            |      Eddy     |
+| NW optimization                            |      Eddy     |
+| Srad optimization                            |      Eddy     |
+| K-Means optimization                            |      Owen     |
+| LUD optimization                            |      Owen     |
+| CFD optimization                            |      Owen     |
    
    
    
